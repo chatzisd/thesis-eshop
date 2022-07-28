@@ -1,0 +1,7 @@
+.image {
+  max-height: 350px;
+}
+.mycontainer {
+  display: flex;
+  justify-content: space-evenly;
+}
