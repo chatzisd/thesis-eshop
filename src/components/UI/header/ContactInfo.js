@@ -5,7 +5,7 @@ import phoneOrangeIcon from "../../../assets/icons/PHONE_orange.png";
 const ContactInfo = () => {
   return (
     <div className="contact-info d-flex align-items-center">
-      <p className="contact-info-paragraph mx-6 my-4">
+      <p className="contact-info-paragraph mx-6 my-3">
         <a href="#">ΤΟΠΟΘΕΣΙΑ</a>
         {" | "}
         <a href="tel:+30-2133333333">
