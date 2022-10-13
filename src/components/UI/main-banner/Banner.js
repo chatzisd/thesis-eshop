@@ -1,12 +1,13 @@
 import React from "react";
 import "./Banner.css";
+import banner1 from "../../../assets/banners/BANNER_1.jpg";
 
 const Banner = () => {
   return (
     <div
       className="banner-container"
       style={{
-        backgroundImage: "url(/images/BANNER_1.jpg)",
+        backgroundImage: "url(" + banner1 +")",
         // height: "500px",
         height: "65vh",
         backgroundSize: "cover",
