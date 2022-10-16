@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/UI/header/Header";
-import Banner from "../components/UI/main-banner/Banner";
+import Banner from "../components/UI/main-banner/Banner1";
 import Slider from "../components/UI/slider/Slider";
 import banner1 from "../assets/banners/BANNER_1.jpg";
 import banner2 from "../assets/banners/banner_b2o.jpg";
@@ -25,8 +25,8 @@ const HomePage = () => {
   return (
     <div>
       <Header />
-      <Banner />
-      {/* <Slider slides={ImageData} /> */}
+      {/* <Banner /> */}
+      <Slider />
     </div>
   );
 };

@@ -1,15 +1,31 @@
-import styled from "styled-components";
+import React, { useState } from "react";
+import Carousel from "react-bootstrap/Carousel";
+import Banner1 from "../../UI/main-banner/Banner1";
+import Banner2 from "../../UI/main-banner/Banner2";
+import Banner3 from "../../UI/main-banner/Banner3";
 
-export const SlideImage = styled.img`
-    backgroundImage: url(styled.img);
-    height: 65vh;
-    backgroundSize: cover;
-    backgroundPosition: center;
-`;
+const Slider = (props) => {
+    const [index, setIndex] = useState(0);
 
-export const StyledSlider = styled.div`
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`;
+    const handleSelect = (selectedIndex, e) => {
+      setIndex(selectedIndex);
+    };
+
+    return (
+      <div>
+        <Carousel activeIndex={index} onSelect={handleSelect}>
+            <Carousel.Item>
+                <Banner1/>
+            </Carousel.Item>
+            <Carousel.Item>
+                <Banner2/>
+            </Carousel.Item>
+            <Carousel.Item>
+                <Banner3/>
+            </Carousel.Item>
+        </Carousel>
+      </div>
+    );
+  };
+
+  export default Slider;
