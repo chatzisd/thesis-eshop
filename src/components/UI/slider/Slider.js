@@ -13,7 +13,7 @@ const Slider = (props) => {
 
     return (
       <div>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel activeIndex={index} onSelect={handleSelect} interval={3000}>
             <Carousel.Item>
                 <Banner1/>
             </Carousel.Item>
