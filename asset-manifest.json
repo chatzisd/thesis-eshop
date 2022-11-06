@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/thesis-eshop/static/css/main.8b87fc4e.css",
-    "main.js": "/thesis-eshop/static/js/main.e2c03e80.js",
+    "main.css": "/thesis-eshop/static/css/main.68441000.css",
+    "main.js": "/thesis-eshop/static/js/main.b151e55a.js",
+    "static/media/portfolio_hex_2.png": "/thesis-eshop/static/media/portfolio_hex_2.f186ae6f0e20b302118e.png",
+    "static/media/portfolio_hex_1.png": "/thesis-eshop/static/media/portfolio_hex_1.bf02b21c3d05d3a74565.png",
+    "static/media/portfolio_hex_3.png": "/thesis-eshop/static/media/portfolio_hex_3.89bd33f3d431e5ce1782.png",
+    "static/media/portfolio_hex_4.png": "/thesis-eshop/static/media/portfolio_hex_4.946487fa423cfd54fbf1.png",
     "static/media/Capture-it.ttf": "/thesis-eshop/static/media/Capture-it.87dae59b958d92f98629.ttf",
     "static/media/banner_03_polygon.jpg": "/thesis-eshop/static/media/banner_03_polygon.2c7a8424eebe758a545b.jpg",
     "static/media/Pc_spirit_1_FinalTrnsprnt.png": "/thesis-eshop/static/media/Pc_spirit_1_FinalTrnsprnt.50faadce2da7cf1ba7b7.png",
     "static/media/BANNER_1.jpg": "/thesis-eshop/static/media/BANNER_1.9cbf51f70956654ebd35.jpg",
     "static/media/banner_b2o.jpg": "/thesis-eshop/static/media/banner_b2o.16a31c50e70d2a07cf62.jpg",
     "index.html": "/thesis-eshop/index.html",
-    "main.8b87fc4e.css.map": "/thesis-eshop/static/css/main.8b87fc4e.css.map",
-    "main.e2c03e80.js.map": "/thesis-eshop/static/js/main.e2c03e80.js.map"
+    "main.68441000.css.map": "/thesis-eshop/static/css/main.68441000.css.map",
+    "main.b151e55a.js.map": "/thesis-eshop/static/js/main.b151e55a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b87fc4e.css",
-    "static/js/main.e2c03e80.js"
+    "static/css/main.68441000.css",
+    "static/js/main.b151e55a.js"
   ]
 }
