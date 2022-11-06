@@ -3,5 +3,32 @@
 }
 .mycontainer {
   display: flex;
-  justify-content: space-evenly;
+  z-index: 2;
+  position: absolute;
+  margin-top: -8%;
+  gap: 4vw;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  margin-left: 0px;
+}
+
+.card {
+  margin-right: -2.5%;
+  margin-left: -2.5%;
+}
+.card-img-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-left: 25%; 
+  margin-right: 25%;
+}
+.card-link{
+  color: rgb(60, 60, 72);
+  font-size: 1.8vw;
+  line-height: 1.2;
+  font-family: "Impact";
+  text-align: center;
 }

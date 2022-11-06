@@ -1,26 +1,32 @@
 import React from "react";
 import "./Card.css";
-import CatImage from "../../../assets/images/cat.png";
-import CatImage2 from "../../../assets/images/cat2.jpg";
+import CardImage1 from "../../../assets/ui_elements/portfolio_hex_1.png"
+import CardImage2 from "../../../assets/ui_elements/portfolio_hex_2.png"
+import CardImage3 from "../../../assets/ui_elements/portfolio_hex_3.png"
+import CardImage4 from "../../../assets/ui_elements/portfolio_hex_4.png"
 import MyCard from "./MyCard";
-import Arrows from "./Arrows";
 
 const CardProduct = () => {
   return (
     <div className="mycontainer">
-      <MyCard src={CatImage} title="Cat 1" cardText="Hello" buttonText="Mew" />
-      <MyCard
-        src={CatImage2}
-        title="Cat 2"
-        cardText="Hello"
-        buttonText="Mew mew"
+      <MyCard 
+        className="card"
+        src={CardImage1} 
+        title="Νέες κυκλοφορίες" 
       />
-      <MyCard src={CatImage} title="Cat 1" cardText="Hello" buttonText="Mew" />
       <MyCard
-        src={CatImage2}
-        title="Cat 2"
-        cardText="Hello"
-        buttonText="Mew mew"
+        className="card"
+        src={CardImage2}
+        title="Έτοιμες λύσεις"
+      />
+      <MyCard 
+        className="card"
+        src={CardImage3} 
+        title="Προτάσεις για gamers"/>
+      <MyCard
+        className="card"
+        src={CardImage4}
+        title="Επικοινωνήστε μαζί μας"
       />
     </div>
   );

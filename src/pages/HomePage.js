@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "../components/UI/header/Header";
-import Banner from "../components/UI/main-banner/Banner1";
 import Slider from "../components/UI/slider/Slider";
 import banner1 from "../assets/banners/BANNER_1.jpg";
 import banner2 from "../assets/banners/banner_b2o.jpg";
 import banner3 from "../assets/banners/banner_03_polygon.jpg";
+import Card from "../components/UI/product-categories/CardProduct";
 
 const ImageData = [
   {
@@ -25,8 +25,8 @@ const HomePage = () => {
   return (
     <div>
       <Header />
-      {/* <Banner /> */}
       <Slider />
+      <Card />
     </div>
   );
 };
